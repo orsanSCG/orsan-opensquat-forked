@@ -102,9 +102,8 @@ def main():
             min_score=0  # Change to 40 or 60 to only send medium/high risk
         )
         
-        print("DISCORD MESSAGE: ", discord_message)
         # Send to Discord
-        #discord(discord_message)
+        discord(discord_message)
         
         # Update file_content to only include domains with keywords (optional)
         # Uncomment the next line if you want to filter out domains with score 0
